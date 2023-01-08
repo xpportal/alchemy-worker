@@ -27,6 +27,8 @@ Light Alchemy uses the following process to generate queries for Divinici:
 2. Use this information to construct a query that will inject the desired personality and prompt into Divinici.
 3. Send the query to Divinici and retrieve the response.
 
+## Inspired by Magick ML
+https://github.com/Oneirocom/MagickML
 
 ## License
 
