@@ -11,6 +11,7 @@ To use Light Alchemy, you will need to do the following:
 3. Paste the code for Light Alchemy into the Cloudflare Worker editor.
 5. Deploy the worker and start using it to generate queries for Divinici.
 6. In your requests, ensure that the OpenAI API key is added in the header `Authorization: Bearer <OPEN_API_KEY>`
+7. Example body `{"input": "write a long form poem about cats!", "speaker": "antpb", "agent": "aiko", "conversation": ""}`
 
 ## Dependencies
 
