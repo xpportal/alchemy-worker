@@ -1,0 +1,8 @@
+name = "alchemy-cf-worker"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2023-01-10"
