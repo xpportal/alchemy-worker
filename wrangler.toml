@@ -1,4 +1,4 @@
-name = "alchemy-cf-worker"
+name = "alchemy-worker"
 type = "webpack"
 route = ''
 zone_id = ''

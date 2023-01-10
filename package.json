@@ -1,5 +1,5 @@
 {
-  "name": "alchemy-cf-worker",
+  "name": "alchemy-worker",
   "version": "1.0.0",
   "description": "A CF worker mocked against Magick ML spells for personality injected AI agents",
   "main": "index.js",
