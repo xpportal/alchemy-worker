@@ -1,6 +1,6 @@
 # Light-Alchemy OpenAI Worker
 
-Light Alchemy is a Cloudflare Worker that performs string parsing and generates queries to inject personality and a desired prompt into Divinici. This can be used to create more natural and engaging chatbot conversations.
+Light Alchemy is a Cloudflare Worker that performs string parsing and generates queries to inject personality and a desired prompt into GPT-3. This can be used to create more natural and engaging chatbot conversations.
 
 ## Usage
 
