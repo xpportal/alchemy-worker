@@ -13,17 +13,13 @@ async function handleFetch(request) {
         return new Response('Unauthorized', { status: 401 });
     }
 
-    // Process the body of the request
-    const body = await request.text();
-    const data = JSON.parse(body);
-    const input = data.input;
-    // Needs to be a proper json string.
-    let prompt = data.personality;
+    const data = await request.json();
+    let prompt = data.inputs.personality;
     let finalPrompt = prompt
-        .replaceAll('#speaker', data.Speaker)
-        .replaceAll('#input', data.Input)
-        .replaceAll('#agent', data.Agent)
-        .replaceAll('#conversation', data.Conversation)
+        .replaceAll('#speaker', data.inputs.Speaker)
+        .replaceAll('#input', data.inputs.Input)
+        .replaceAll('#agent', data.inputs.Agent)
+        .replaceAll('#conversation', data.inputs.Conversation)
         .replaceAll('undefined\n','' ).replaceAll('undefined','')
         .slice(-5000)
 
