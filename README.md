@@ -84,4 +84,4 @@ https://github.com/Oneirocom/MagickML
 
 ## License
 
-Alchemy Worker OpenAI Worker is licensed under the GPL 2.0 license. See [LICENSE](LICENSE) for more information.
+Alchemy Worker OpenAI Worker is licensed under the GPL 2.0 and MPL2 license. See [LICENSES](LICENSES) for more information.
