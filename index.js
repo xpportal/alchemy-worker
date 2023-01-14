@@ -1,3 +1,33 @@
+/*
+ * Copyright 2023 SXP Digital, LLC
+ *
+ * This file is part of Alchemy Worker: https://github.com/xpportal/alchemy-worker.
+ *
+ * Alchemy Worker is free software: you can redistribute it and/or modify
+ * it under the terms of the Mozilla Public License version 2.0 as
+ * published by the Mozilla Foundation.
+ *
+ * Alchemy Worker is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * Mozilla Public License for more details.
+ *
+ * You should have received a copy of the Mozilla Public License
+ * along with Alchemy Worker. If not, see <https://www.mozilla.org/en-US/MPL/2.0/>.
+ *
+ * Alternatively, the contents of this file may be used under the terms of the
+ * GNU General Public License version 2.0 or (at your option) any later version,
+ * in which case the provisions of the GNU General Public License version 2.0
+ * or later shall apply instead of those above.
+ *
+ * If you wish to allow use of your version of this file only under the terms of
+ * the GPL version 2.0, and not to allow others to use your version of this file
+ * under the MPL, indicate your decision by deleting the provisions above and
+ * replace them with the notice and other provisions required by the GPL version 2.0.
+ * If you do not delete the provisions above, a recipient may use your version of
+ * this file under either the MPL or the GPL version 2.0.
+ */
+
 async function handleRequest(request) {
     if (request.method === 'OPTIONS') {
         return handleOptions(request);
