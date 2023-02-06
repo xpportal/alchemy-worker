@@ -45,11 +45,12 @@ async function handleFetch(request) {
 
     const data = await request.json();
     let prompt = data.inputs.personality;
+    let prompt = data.Input.personality;
     let finalPrompt = prompt
-        .replaceAll('#speaker', data.inputs.Speaker)
-        .replaceAll('#input', data.inputs.Input)
-        .replaceAll('#agent', data.inputs.Agent)
-        .replaceAll('#conversation', data.inputs.Conversation)
+        .replaceAll('#speaker', data.Input.Speaker)
+        .replaceAll('#input', data.Input.Input)
+        .replaceAll('#agent', data.Input.Agent)
+        .replaceAll('#conversation', data.Input.Conversation)
         .replaceAll('undefined\n','' ).replaceAll('undefined','')
         .slice(-5000)
 
