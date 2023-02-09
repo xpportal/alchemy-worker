@@ -59,6 +59,7 @@ async function handleFetch(request) {
         prompt: finalPrompt	,
         max_tokens: 500,
         stop : ["###"],
+        temperature: 0.7,
     };
 
     // Make the first request to the Davinci model
