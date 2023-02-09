@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xpportal/light-alchemy.git"
+    "url": "git+https://github.com/xpportal/alchemy-worker.git"
   },
   "author": "antpb",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/xpportal/light-alchemy/issues"
+    "url": "https://github.com/xpportal/alchemy-worker/issues"
   },
-  "homepage": "https://github.com/xpportal/light-alchemy#readme"
+  "homepage": "https://github.com/xpportal/alchemy-worker#readme"
 }
